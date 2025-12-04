@@ -34,7 +34,7 @@ htmlcov/
 .tox/
 .coverage
 .coverage.*
-.cache
+.cache/
 nosetests.xml
 coverage.xml
 *.cover
@@ -77,6 +77,8 @@ celerybeat-schedule
 
 # Environments
 .env
+.env.local
+.env.*.local
 .venv
 env/
 venv/
@@ -114,3 +116,15 @@ dmypy.json
 .Trashes
 ehthumbs.db
 Thumbs.db
+
+# Weather App Cache
+weather_cache.json
+user_data.json
+
+# Old project files
+main.py
+README_old.md
+README_oldAPI.md
+test_api.py
+country_info.py
+CurrencyAPI/
